@@ -1,0 +1,31 @@
+<div class="row">
+    @include('dashboard.dashboardFinanceItem', ['title' => 'Zárás',
+                                                'route' => 'closures.index',
+                                                'icon' => 'ion ion-bag',
+                                                'box' => 'small-box bg-info',
+                                                'label' => date('Y'),
+                                                'endlabel' => 'ft',
+                                                'function' => number_format(DashboardController::closuresAmountSumThisYear([date('Y')]),0,",",".") ])
+    @include('dashboard.dashboardFinanceItem', ['title' => 'Számla',
+                                                'route' => 'invoices.index',
+                                                'icon' => 'ion ion-stats-bars',
+                                                'box' => 'small-box bg-success',
+                                                'label' => date('Y'),
+                                                'endlabel' => 'ft',
+                                                'function' => number_format(DashboardController::invoicesAmountSumThisYear([date('Y')]),0,",",".") ])
+    @include('dashboard.dashboardFinanceItem', ['title' => 'Eredmény',
+                                                'route' => 'invoices.index',
+                                                'icon' => 'ion-pie-graph',
+                                                'box' => 'small-box bg-danger',
+                                                'label' => date('Y'),
+                                                'endlabel' => 'ft',
+                                                'function' => number_format(DashboardController::financialResultThisYear([date('Y')]),0,",",".") ])
+    @include('dashboard.dashboardFinanceItem', ['title' => 'Partner',
+                                                'route' => 'partners.index',
+                                                'icon' => 'ion ion-person-add',
+                                                'box' => 'small-box bg-warning',
+                                                'label' => 'Össz',
+                                                'endlabel' => 'db',
+                                                'function' => number_format(DashboardController::partnerCount(),0,",",".") ])
+</div>
+
