@@ -1,0 +1,96 @@
+[15-Jan-2024 09:25:53 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:25:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:00 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:17 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:21 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:26:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:27:16 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:27:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:27:33 UTC] PHP Warning:  require_once(/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[15-Jan-2024 09:27:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/..projekt//bootstrap/app.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 47
+[16-Jan-2024 10:27:03 UTC] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../projekt/vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[16-Jan-2024 10:27:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../projekt/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[16-Jan-2024 10:27:07 UTC] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../projekt/vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[16-Jan-2024 10:27:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../projekt/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[16-Jan-2024 10:57:38 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/colorado/lottostatisztika.hu/public/index.php on line 6
+[16-Jan-2024 10:57:42 UTC] PHP Parse error:  syntax error, unexpected token "__DIR__" in /home/colorado/lottostatisztika.hu/public/index.php on line 6
+[17-Jan-2024 12:55:51 Europe/Budapest] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/colorado/lottostatisztika.hu/projekt/vendor/composer/platform_check.php on line 24
+[17-Jan-2024 12:55:55 Europe/Budapest] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/colorado/lottostatisztika.hu/projekt/vendor/composer/platform_check.php on line 24
+[19-Jan-2024 20:26:09 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/colorado/lottostatisztika.hu/projekt/vendor/composer/platform_check.php on line 24
+[19-Jan-2024 20:26:10 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 8.0.30. in /home/colorado/lottostatisztika.hu/projekt/vendor/composer/platform_check.php on line 24
+[01-Feb-2024 18:26:57 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:26:57 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:00 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:00 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:06 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:06 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:07 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:07 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:31 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:31 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:34 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:27:34 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:29:55 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:29:55 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:29:58 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:29:58 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:30:05 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:30:05 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:30:13 Europe/Budapest] PHP Warning:  require(/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/colorado/lottostatisztika.hu/public/index.php on line 34
+[01-Feb-2024 18:30:13 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/colorado/lottostatisztika.hu/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/colorado/lottostatisztika.hu/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/colorado/lottostatisztika.hu/public/index.php on line 34

@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: -moz-scrollbars-vertical;
+    background-image: url('../img/lottomenu/lotto-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#lotto-big {
+    font-family: 'Poppins', sans-serif;
+    visibility: visible;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#lotto-big:hover{
+    filter: drop-shadow(8px 6px 10px gray);
+}
+
+body {
+    /*overflow: hidden;*/
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 90%;
+    justify-self: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-direction: column;
+}
+
+/* navbar */
+.navbar {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 0px;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(60, 118, 20, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar:hover{
+    box-shadow: 21px 21px 27px hsla(0, 5%, 0%, 0.2);
+}
+
+.navbar .logo img {
+    vertical-align: middle;
+}
+
+.navbar .menu .head {
+    display: none;
+}
+
+.navbar .menu ul {
+    list-style: none;
+}
+
+.navbar .menu > ul > li {
+    display: inline-block;
+}
+
+.navbar .menu > ul > li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navbar .menu .dropdown {
+    position: relative;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    display: block;
+}
+
+.navbar .menu a:hover {
+    color: #000000;
+    display: block;
+    text-shadow: 9px 6px 9px rgba(0,0,0,0.9);
+    text-decoration-color: #1D00AF;
+    /*text-transform: uppercase;*/
+}
+
+.navbar .menu > ul > li a {
+    padding: 24px 0;
+}
+
+.navbar .menu > ul > .dropdown > a {
+    padding-right: 15px;
+}
+
+.navbar .menu i {
+    font-size: 10px;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+    color: hsl(0, 0%, 100%);
+    top: calc(50% - 5px);
+}
+
+.navbar .menu > ul > li > i {
+    right: 0;
+}
+
+.navbar .menu .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    padding: 15px 0;
+    background-color: rgba(60, 118, 20, 0.95); /* Menü színe asztali gépen */
+    /*box-shadow: 0 0 35px hsla(0, 20%, 0%, 0.75);*/
+    box-shadow: 21px 21px 27px hsla(0, 20%, 0%, 0.75);
+    z-index: 1;
+    transform-origin: top;
+    transform: scaleY(0);
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.navbar .menu .sub-menu-right {
+    left: 100%;
+    top: 0;
+}
+
+.navbar .menu .sub-menu-left {
+    top: 0;
+    left: auto;
+    right: 100%;
+}
+
+.navbar .menu li:hover > .sub-menu {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+    transition: all 0.2s ease;
+}
+
+.navbar .menu .sub-menu a {
+    padding: 6px 24px;
+}
+
+.navbar .menu .sub-menu .dropdown > a {
+    padding-right: 34px;
+}
+
+.navbar .menu .sub-menu span {
+    background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 0%, 100%));
+    background-size: 0 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.2s ease;
+}
+
+.navbar .menu .sub-menu li:hover > a > span {
+    background-size: 100% 1px;
+}
+
+.navbar .menu .sub-menu i {
+    transform: rotate(-90deg);
+    right: 24px;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.navbar-right > * {
+    margin-left: 25px;
+}
+
+.navbar-right .icon-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+.navbar-right .open-menu-btn {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background-color: rgba(101, 202, 34, 0.9);
+        box-shadow: none !important;
+        border-radius: 5px;
+    }
+
+    #lotto-big{
+        visibility: hidden;
+    }
+    .navbar .menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 320px;
+        height: 100%;
+        /*background-color: hsl(229, 54%, 51%); !*menü színe a hamburger menü alatt*!*/
+        background-color: rgba(101, 202, 34, 0.9);
+        padding: 15px 30px 30px;
+        overflow-y: auto;
+        z-index: 1;
+        transform: translateX(100%);
+    }
+
+    .navbar .menu.open {
+        transform: none;
+    }
+
+    .navbar .menu .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .navbar .menu .close-menu-btn {
+        height: 35px;
+        width: 35px;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+    }
+
+    .navbar .menu .close-menu-btn::before,
+    .navbar .menu .close-menu-btn::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 2px;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .navbar .menu .close-menu-btn::before {
+        transform: rotate(45deg);
+    }
+
+    .navbar .menu .close-menu-btn::after {
+        transform: rotate(-45deg);
+    }
+
+    .navbar .menu > ul > li {
+        display: block;
+    }
+
+    .navbar .menu > ul > li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .navbar .menu li {
+        border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
+    }
+
+    .navbar .menu li:first-child {
+        border-top: 1px solid hsla(0, 0%, 100%, 0.25);
+    }
+
+    .navbar .menu > ul > li > a {
+        padding: 12px 0;
+    }
+
+    .navbar .menu > ul > .dropdown > a {
+        padding-right: 34px;
+    }
+
+    .navbar .menu i {
+        height: 34px;
+        width: 34px;
+        border: 1px solid hsla(0, 0%, 100%, 0.25);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+        cursor: pointer;
+        top: 7px;
+    }
+
+    .navbar .menu .dropdown.active > i {
+        background-color: hsla(0, 0%, 100%, 0.25);
+        transform: rotate(180deg);
+    }
+
+    .navbar .menu .sub-menu {
+        position: static;
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+        padding: 0;
+        transition: none;
+        box-shadow: none;
+        width: 100%;
+        display: none;
+    }
+
+    .navbar .menu .dropdown.active > .sub-menu {
+        display: block;
+    }
+
+    .navbar .menu .sub-menu li:last-child {
+        border: none;
+    }
+
+    .navbar .menu .sub-menu a {
+        padding: 12px 0 12px 15px;
+    }
+
+    .navbar .menu .sub-menu .sub-menu a {
+        padding-left: 30px;
+    }
+
+    .navbar .menu .sub-menu .sub-menu .sub-menu a {
+        padding-left: 45px;
+    }
+
+    .navbar .menu .sub-menu span {
+        background-image: none;
+    }
+
+    .navbar .menu .sub-menu i {
+        transform: none;
+        right: 0;
+    }
+
+    .navbar-right .open-menu-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 44px;
+        cursor: pointer;
+        position: relative;
+        background-color: transparent;
+        margin-right: 10px;
+    }
+
+    .navbar-right .open-menu-btn .line {
+        height: 2px;
+        width: 30px;
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+    }
+
+    .navbar-right .open-menu-btn .line-1 {
+        transform: translateY(-8px);
+    }
+
+    .navbar-right .open-menu-btn .line-2 {
+        transform: translateY(8px);
+    }
+}
+
+/* hero */
+.hero {
+    min-height: 100vh;
+    background-image: url('public/img/lottomenu/lotto-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.szalagcim {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.footer {
+    height: auto;
+    padding-top: 1%;
+    width: 100%;
+    background-color: grey;
+    background-color: rgba(201, 216, 193, 100);
+    text-align: center;
+    align-items: center;
+    /*position: sticky;*/   /* Ezzel lehetne fixen a képernyő alján mutatni a footert*/
+    /*bottom: 0;*/          /* Ezzel lehetne fixen a képernyő alján mutatni a footert*/
+}
+
+/*.nemisegedlet {*/
+/*    !*background-color: rgba(91, 235, 46, 0.83) !important;*!*/
+/*    background-color: rgba(235, 46, 56, 0.83) !important;*/
+/*    width: 90%;*/
+/*    margin-left: 5%;*/
+/*    margin-right: 5%;*/
+/*    justify-self: center;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    border: #1a202c;*/
+/*    border-radius: 5px;*/
+/*    box-shadow: #1a202c;*/
+/*}*/
